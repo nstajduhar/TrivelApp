@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/package_item_height"
+    android:id="@+id/tripPackage"
+    android:background="@color/background">
+
+<!--Simple layout of how the packages will look like in the recyclerView
+(both PackagesFragment and WishListFragment)-->
+
+    <ImageView
+        android:layout_margin="@dimen/icon_margin"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:src="@drawable/ic_flight_takeoff_black_24dp"
+        android:id="@+id/package_icon" />
+
+    <TextView
+        android:fontFamily="@font/roboto_regular"
+        android:id="@+id/package_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/package_icon"
+        android:layout_toEndOf="@+id/package_icon"
+        android:layout_toRightOf="@+id/package_icon"
+        android:text="@string/our_packages"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/roboto_regular"
+        android:id="@+id/package_price"
+        android:layout_marginRight="@dimen/icon_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/package_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/credits" />
+
+    <TextView
+        android:id="@+id/package_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_toEndOf="@+id/package_icon"
+        android:layout_toRightOf="@+id/package_icon"
+        android:text="@string/credits" />
+</RelativeLayout>

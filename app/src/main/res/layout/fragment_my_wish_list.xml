@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josegeorges.trivelapp.MyWishListFragment"
+    android:background="@color/background">
+
+
+    <!-- adding the recyclerView to the fragment-->
+    <include layout="@layout/recycler_view"/>
+
+    <!--This views will appear if there are no packages yet-->
+    <TextView
+        android:id="@+id/isEmpty_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="@string/isEmpty"
+        android:textAlignment="center"
+        android:textSize="@dimen/subtitle_size"
+        android:fontFamily="@font/roboto_regular"/>
+
+    <Button
+        android:id="@+id/goToPackages_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="@dimen/padding"
+        android:text="@string/goToPackages"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/button_text_size" />
+
+</RelativeLayout>

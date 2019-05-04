@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_packages"
+            android:icon="@drawable/ic_flight_takeoff_black_24dp"
+            android:title="@string/our_packages" />
+        <item
+            android:id="@+id/nav_wish_list"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/wish_list" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="@string/credits" />
+    </group>
+</menu>

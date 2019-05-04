@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Dimensions for each item inside the recyclerView (packages)-->
+    <dimen name="icon_width">80dp</dimen>
+    <dimen name="icon_height">80dp</dimen>
+    <dimen name="icon_margin">8dp</dimen>
+    <dimen name="package_item_height">100dp</dimen>
+    <dimen name="recycler_title_size">24sp</dimen>
+
+
+    <!-- Dimensions for each item inside the recyclerView (salesrep)-->
+    <dimen name="salesrep_icon_width">30dp</dimen>
+    <dimen name="salesrep_icon_height">30dp</dimen>
+    <dimen name="salesrep_icon_margin">4dp</dimen>
+    <dimen name="salesrep_image_width">96dp</dimen>
+    <dimen name="salesrep_image_height">96dp</dimen>
+    <dimen name="salesrep_image_margin">8dp</dimen>
+
+    <!--About us specific dimensions-->
+    <dimen name="cards_sides_margin">16dp</dimen>
+    <dimen name="cards_top_bottom_margin">8dp</dimen>
+
+    <!-- Some general dimensions-->
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="subtitle_size">16sp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="display_size">45sp</dimen>
+
+
+</resources>

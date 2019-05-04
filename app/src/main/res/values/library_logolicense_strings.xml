@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="define_int_logolicense"></string>
+	<!-- Author section -->
+	<string name="library_logolicense_author">Icon Pond</string>
+	<string name="library_logolicense_authorWebsite">www.flaticon.com</string>
+	<!-- Library section -->
+	<string name="library_logolicense_libraryName">Our Logo</string>
+	<string name="library_logolicense_libraryDescription">This is the license for our apps logo. This logo was found on flaticon.com</string>
+	<string name="library_logolicense_libraryWebsite">flaticon.com</string>
+	<string name="library_logolicense_libraryVersion">1.0.0</string>
+	<!-- OpenSource section -->
+	<string name="library_logolicense_isOpenSource">true</string>
+	<string name="library_logolicense_repositoryLink">flaticon.com</string>
+	<!-- ClassPath for autoDetect section -->
+	<string name="library_logolicense_classPath"></string>
+	<!-- License section -->
+	<string name="library_logolicense_licenseId">cc30</string>
+	<!-- Custom variables section -->
+</resources>

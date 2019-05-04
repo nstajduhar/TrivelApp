@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josegeorges.trivelapp.AboutUsFragment"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!--About us section-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="@dimen/title_size"
+                android:text="@string/about_trivel"
+                android:padding="@dimen/padding"
+                android:id="@+id/aboutUs_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"/>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/aboutUs_description_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/aboutUs_title"
+                android:layout_marginLeft="@dimen/cards_sides_margin"
+                android:layout_marginRight="@dimen/cards_sides_margin"
+                android:layout_marginBottom="@dimen/cards_top_bottom_margin"
+                android:layout_marginTop="@dimen/cards_top_bottom_margin"
+                card_view:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/aboutUs_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:lineSpacingExtra="8sp"
+                    android:padding="@dimen/padding"
+                    android:text="@string/aboutus_description" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/subtitle_size"
+                android:text="@string/contact_our_sales_representatives"
+                android:padding="@dimen/padding"
+                android:id="@+id/aboutUs_salesRep_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/aboutUs_description_card_view"
+                 />
+
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/cards_sides_margin"
+                android:layout_marginRight="@dimen/cards_sides_margin"
+                android:layout_marginBottom="@dimen/cards_top_bottom_margin"
+                android:layout_marginTop="@dimen/cards_top_bottom_margin"
+                android:id="@+id/aboutUs_salesRep_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/aboutUs_salesRep_Title"
+                card_view:cardCornerRadius="4dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:padding="@dimen/padding"
+                    android:id="@+id/aboutUs_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+            </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

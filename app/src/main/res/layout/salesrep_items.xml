@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/salesrep_items">
+
+    <!--Simple layout of how the sales rep will look like in the recyclerView-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/salesrep_imageView"
+        android:layout_width="@dimen/salesrep_image_width"
+        android:layout_height="@dimen/salesrep_image_height"
+        android:layout_margin="@dimen/salesrep_image_margin"
+        android:src="@color/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+  <!--
+    <ImageView
+        android:id="@+id/salesrep_imageView"
+        android:layout_width="@dimen/salesrep_image_width"
+        android:layout_height="@dimen/salesrep_image_height"
+        android:layout_margin="@dimen/salesrep_image_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@color/background"/>
+        -->
+
+    <TextView
+        android:textSize="@dimen/recycler_title_size"
+        android:id="@+id/salesrep_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/salesrep_imageView"
+        android:layout_toEndOf="@+id/salesrep_imageView"
+        android:layout_toRightOf="@+id/salesrep_imageView"
+        android:text="Sales Representative" />
+
+    <ImageView
+        android:layout_width="@dimen/salesrep_icon_width"
+        android:layout_height="@dimen/salesrep_icon_height"
+        android:layout_margin="@dimen/salesrep_icon_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_call_black_24dp"
+        android:id="@+id/salesrep_call" />
+
+    <ImageView
+        android:id="@+id/salesrep_email"
+        android:layout_width="@dimen/salesrep_icon_width"
+        android:layout_height="@dimen/salesrep_icon_height"
+        android:layout_alignLeft="@+id/salesrep_call"
+        android:layout_alignStart="@+id/salesrep_call"
+        android:layout_below="@+id/salesrep_call"
+        android:layout_marginBottom="@dimen/salesrep_icon_margin"
+        android:layout_marginRight="@dimen/salesrep_icon_margin"
+        android:layout_marginTop="@dimen/salesrep_icon_margin"
+        android:src="@drawable/ic_email_black_24dp" />
+
+    <ImageView
+        android:id="@+id/salesrep_social"
+        android:layout_width="@dimen/salesrep_icon_width"
+        android:layout_height="@dimen/salesrep_icon_height"
+        android:layout_alignBottom="@+id/salesrep_imageView"
+        android:layout_alignEnd="@+id/salesrep_email"
+        android:layout_alignRight="@+id/salesrep_email"
+        android:src="@drawable/ic_language_black_24dp" />
+
+</RelativeLayout>

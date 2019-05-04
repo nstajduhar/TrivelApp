@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrivelApp</string>
+    <string name="app_title">Trivel</string>
+    <string name="app_subtitle">Travel Agency</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Spanish</string>
+
+    <!--Main Menu Items -->
+    <string name="our_packages">Our Packages</string>
+    <string name="wish_list">Wish List</string>
+    <string name="about_us">About Us</string>
+    <string name="credits">Credits</string>
+
+    <!--My Wish List Views-->
+    <string name="isEmpty">You have no favorite packages yet!</string>
+    <string name="goToPackages">Check Our Packages</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--About us Section-->
+    <string name="aboutus_description">Trivel was formed by Jose Georges and Nick Stajduhar. Both 2nd Year Mobile App Development Students
+    The idea of Trivel was to make a travel agency app that would be easy to use and make it graphically appealing at the same time.
+    Trivel blew up fast and turned into an amazing company to create offering trips to all families and couples at the touch of a finger.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="testing_translation">English</string>
+    <string name="aboutLibraries_description_showIcon">true</string>
+    <string name="aboutLibraries_description_showVersion">true</string>
+    <string name="aboutLibraries_description_text">Trivel is a travel agency app made by Jose Georges and Nick Stajduhar. 2nd Year Mobile App Development Students</string>
+    <string name="description1">Lossy Villa is a beautiful all inclusive resort. While here take the chance to visit one of our 4 bars. As well as try one of the 3 on site pools. Swim up to the bar and watch the sunset over the ocean, while enjoying a cold drink from one of our swim up bars</string>
+    <string name="description2">Come visit this beautiful tropical resort. It is the perfect honeymoon or family location with its magnificent pools and views. Visit many of the children play areas as well as the bars for the adults. There Puerto Viana Resort</string>
+    <string name="description3">Amazing tropical destination perfect for your next vacation. Every room has a perfect view of the ocean or the forest, no matter what you cant go wrong. Just sit back and relax while we take care of everything with our all inclusive deals.</string>
+    <string name="description4">Stay in this beautiful resort full of rich history. Experience the historic area, top it off by staying in an old plantation which has been transformed into our rustic resort. Experience all the land has to offer as well as the other attractions.</string>
+    <string name="description5">Come experience this breathtaking water themed all inclusive resort. Visit our water park or one of our 4 pools. There are so many family friendly options as well as the multiple bars located by the pools for all the adults to enjoy.</string>
+    <string name="description6">Enjoy an all nature resort that filters all their water and uses wind to generate power. Discover the untold beauty presented when staying here. Once you experience it you will never want to leave.</string>
+    <string name="description7">This is the perfect destination for women. Glitter Canyon Resort is an all inclusive spa. There is something for everyone here. We have different packages for everyone. This os the perfect honeymoon destination or just to get away from the kids.</string>
+    <string name="description8">Come fall in love with our all inclusive beach resort. Grab a drink from one of our 5 bars, bring it to the beach and sit in one of our many luxury beach recliners. Spend the day lounging on the beach, enjoying drinks and enjoying the beautiful sunset over the water</string>
+    <string name="description9">Experience a culture shock stay in an authentic themed hotel. Fun to learn and experience with the whole family. Come enjoy this new wonder. We guarantee everyone in the family will enjoy it here!</string>
+    <string name="description10">Great Hawk Lodge is a great family location with a huge indoor water park. By coming to our resort have all the family time you need by hanging out in our arcade, going on a safari, riding rides in our water park, and going to dinner in one of our 5 resturants. There\'s something for everyone in the family to do and a great way to get your family off those phones and out in the water. Book Today</string>
+    <string name="description11">Spend some time in this luxury resort located in the Margarita Island in Venezuela. With more than 3 restaurants, you get access to all the meals and snacks the whole day. Also, you have unlimited drinks included! (both alcoholic and non-alcoholic, exclusion applies). Relax and enjoy the quiet ocean on their white sand beach, with view to the island/’s lighthouse. This trip is perfect if you are looking to just get away of your daily routine.</string>
+    <string name="description12">You will feel like living a royal life staying at this luxury greek hotel. Located in the beautiful city of Santorini,  you are going to be able to get away from your responsibilities and escape to this palace of pleasure and relax. Start your day with a beautiful blue ocean view, and stay all day enjoying of massages, beautiful pools and the nice sound of silence.</string>
+    <string name="description13">Looking to spend the night on a quick business trip? or maybe pass the night with your partner while visiting London? Then this package is for you! Stay the night at Royal Crown, one of the most luxury hotels in London to stay, with first class restaurants, to indoor pool and indoor gym.</string>
+    <string name="description14">Enjoy of the most beautiful beaches in Cancun, Mexico and stay in one of the most luxurious hotels in Cancun. Vida Rica is known for all the activities they provide on their near beaches, combining with their awesome restaurants and enjoyable night bats. For the kids, the hotel also provides many activities like pool recreation and many activities more! Don/’t forget to do some scuba diving on the cleanest beaches and ride water motorcycles!</string>
+    <string name="description15">Travel through the Caribbean on one of the biggest cruise in the world. With more than 1,000 foot long, the Caribbean Cruise carries up to 5,000 guests! It has all the activities your family will love to enjoy. From water slides, to relaxing pools, the Caribbean Cruise has everything you need to spend one of the best summer travels of your life! Also, if you are tired of spending the time outside on the sun, the Cruise has many floors with different activities each. From Casinos, to fancy restaurants and a theatre, Caribbean Cruise will not bored you or your family! The Cruise Caribbean sails from Miami, Florida and passes through the Caribbean islands, making stops in Puerto Rico, Dominican Republic and Cuba!</string>
+    <string name="description16">Wonders is one of the most luxury hotels in the world. Located underwater, Wonders offers their guests a stay they/’ll never forget. Eat and sleep while watching the relaxing waves and creatures of the deep ocean. It is perfect for a honey moon or just a simple trip with your partner!</string>
+    <string name="description17">Spend your family vacations in this amazing island resort. Exotica holds up to 6,000 guests and its known for its unlimited activities. with our package, you get all in food and drinks! Kids will love the kids area in this resort where they have all the recreational activities you can imagine!</string>
+    <string name="description18">Amazing resort for business trips. This lovely resort in the Margarita Island, Venezuela, offers a golf court to spend some time on! you will also have 1st class rooms, amazing massages, a beautiful beach and a luxury pool! this package is recommended for golf lovers</string>
+    <string name="description19">Feeling like going for an adventure? Then this exiting jungle resort is for you! explore the jungles of Thailand and relax at the same time in Jungle Wild, you will be able to travel through the jungle the day, and then get some relaxing drinks at night</string>
+    <string name="description20">The ultimate luxury type of life. The Class offers a 5 stars service with its splendour and magnificence. Spend the best sleep on the best quality rooms. swim and relax on either indoor or outdoor pools. Also, eat the most classy food in the world in their 1st class restaurant.</string>
+    <string name="duration1">4 Nights and 5 Days</string>
+    <string name="duration2">3 Nights and 4 Days</string>
+    <string name="duration3">4 Nights and 5 Days</string>
+    <string name="duration4">2 Nights and 3 Days</string>
+    <string name="duration5">3 Nights and 4 Days</string>
+    <string name="duration6">4 Nights and 5 Days</string>
+    <string name="duration7">6 Nights and 7 Days</string>
+    <string name="duration8">5 Nights and 6 Days</string>
+    <string name="duration9">4 Nights and 5 Days</string>
+    <string name="duration10">2 Nights and 3 Days</string>
+    <string name="duration11">5 Nights and 6 Days</string>
+    <string name="duration12">3 Nights and 4 Days</string>
+    <string name="duration13">1 Nights and 2 Days</string>
+    <string name="duration14">5 Nights and 6 Days</string>
+    <string name="duration15">3 Nights and 4 Days</string>
+    <string name="duration16">2 Nights and 3 Days</string>
+    <string name="duration17">5 Nights and 6 Days</string>
+    <string name="duration18">4 Nights and 5 Days</string>
+    <string name="duration19">4 Nights and 5 Days</string>
+    <string name="duration20">2 Nights and 3 Days</string>
+    <string name="price_of_trip">Price of Trip:</string>
+    <string name="duration_of_trip">Duration of trip:</string>
+    <string name="description_tag">Description</string>
+    <string name="activities_tab">Activities</string>
+    <string name="upcoming_trip">Upcoming Trip</string>
+    <string name="fab2">Map</string>
+    <string name="fab3">Add trip to your Calendar</string>
+    <string name="fab1_1">Add</string>
+    <string name="fab1_2">to wishlist</string>
+    <string name="toast_removed">was removed from the wishlist</string>
+    <string name="toast_added">was added to the wishlist</string>
+    <string name="fab1_3">Remove</string>
+    <string name="fab1_4">from the wishlist</string>
+    <string name="about_trivel">ABOUT TRIVEL</string>
+    <string name="contact_our_sales_representatives">CONTACT OUR SALES REPRESENTATIVES</string>
+    <string name="activities1">• Snorkeling  • Tour ancient ruins  • Visit amazing Dinosaur Park  • Visit ancient pyramids  • Take a tour of the town and visit local shops</string>
+    <string name="activities2">• Bar hopping by the beach  • Historical tour of the city  • Bird Watching  • Romantic boat tour  • Local experience</string>
+    <string name="activities3">• Visit locals on a city tour  • Catamaran boat tours  • Visit the aquarium  • Visit ancient ruins  • Nightclubbing</string>
+    <string name="activities4">• Plantation Tour  • Party on Alcohol St.  • Steam boat ride  • Segway Tour  • Old City Tour</string>
+    <string name="activities5">• Water Park  • Beach Tours  • Outdoor movie  • Rent a classic car  • Swim with the dolphins</string>
+    <string name="activities6">• Helicopter Tour  • Day at the amusement park  • Music festival  • MAD National Park</string>
+    <string name="activities7">• Visit a casino  • Watch a show  • Tour the city  • Visit the Canyon  • Go to a drive-in</string>
+    <string name="activities8">• Swimming in the ocean  • Tour the town  • Shop in markets  • Snorkeling  • Boat Tour</string>
+    <string name="activities9">• Participate in local events  • Go to amusement parks  • Underground Markets  • Cultural Restaurants  • Visit historical sites</string>
+    <string name="activities10">• Ride rides  • Huge Water Park  • Amazing Arcade  • Safari Adventure  • Variety of Restaurants  • Play miniature golf.</string>
+    <string name="activities11">• Excursion to the lighthouse  • Yoga in the beach  • Aerobics at the pool area  • Bingo every night after exclusive night theatre show  • All night disco club for grown ups!  • Movie theatre with different functions everyday.  • Multiple aquatic games at the pool area.  • Rent of bikes.  • Free access to the hotel’s gym.  • Karaoke Thursday!</string>
+    <string name="activities12">• Massages  • Excursion through the beautiful seas outside Greece  • Scuba diving classes  • Hiking Excursion  • Cooking class and wine testing</string>
+    <string name="activities13">• Gym classes scheduled.  • Personal Massages.  • Live bands inside the hotel bar.  • Excursion to get to know London for one day in a bus.  • Room service.</string>
+    <string name="activities14">• Water Motorcycle rent.  • Pool recreation.  • Beach activities  • All night disco club for grown ups!  • Movie theatre with different functions everyday.  • Free access to the hotel’s gym  • Scuba diving lessons  • Gaming room for kids</string>
+    <string name="activities15">• Water Rides  • Theater  • Stores to shop  • Restaurants with different types of food  • 3 stops in Puerto Rico, Dominican Republic and Cuba.  • Gym (may charge for usage)  • Night Club with different theme nights  • Karaoke Bar  • Casino.  • Pool Activities</string>
+    <string name="activities16">• Scuba diving lessons.  • Room Service.  • Restaurants.  • Bars.</string>
+    <string name="activities17">• Scuba diving lessons  • Water Motorcycle Renting  • Restaurants all over the island  • Bars all over the island  • Night Shows  • Food theme on each restaurant per day  • Water rides  • Bike renting  • Casino.  • Pool Activities</string>
+    <string name="activities18">• Scuba diving lessons  • Water Motorcycle Renting  • Fancy Restaurants  • Night Bar with Karaoke nights  • Night Shows  • Golf Court</string>
+    <string name="activities19">• Excursions through Jungle  • Spa  • Sauna  • Massages</string>
+    <string name="activities20">• Room Service  • Spa  • Sauna  • Massages  • Casino  • Live Band on Fridays inside the Restaurant</string>
+
+</resources>
